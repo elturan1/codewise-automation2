@@ -29,7 +29,23 @@ public class LoginPositive {
         }
         else{
             System.out.println("login is wrong");
+
         }
+        driver.findElement(By.linkText("Sauce Labs Backpack")).click();
+        Thread.sleep(500);
+        driver.navigate().back();
+        Thread.sleep(1000);
+
+        driver.findElement(By.linkText("Sauce Labs Bike Light")).click();
+        Thread.sleep(500);
+        driver.navigate().back();
+        Thread.sleep(1000);
+
+        driver.findElement(By.linkText("Sauce Labs Bolt T-Shirt")).click();
+        Thread.sleep(500);
+        driver.navigate().back();
+        Thread.sleep(1000);
+
 
     }
 
